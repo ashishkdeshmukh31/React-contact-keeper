@@ -1,0 +1,94 @@
+body {
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ui.container {
+  padding-top: 70px;
+}
+
+.ui.fixed.menu {
+  background-color: #2185d0;
+  color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  height: 60px;
+  align-items: center;
+}
+
+.ui.fixed.menu h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ui.button.blue {
+  background-color: #2185d0;
+  color: white;
+}
+
+.ui.button.blue:hover {
+  background-color: #1678c2;
+}
+
+.ui.form {
+  margin-top: 20px;
+}
+
+.ui.form .field label {
+  font-weight: 500;
+}
+
+.ui.card.centered {
+  width: 350px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ui.card img {
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.center-div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ui.search {
+  margin-bottom: 20px;
+}
+
+.ui.icon.input input.prompt {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.ui.icon.input .search.icon {
+  color: #999;
+  right: 10px;
+}
+
+.ui.celled.list .item {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.ui.celled.list .item:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ui.celled.list .header {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.ui.celled.list .description {
+  color: #666;
+}
