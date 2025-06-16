@@ -1,5 +1,6 @@
+// src/api/contacts.js
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:3006"
+  baseURL: "https://contact-api-qsdv.onrender.com"
 });
