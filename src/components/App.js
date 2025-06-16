@@ -11,10 +11,10 @@ import EditContact from "./EditContact";
 
 function App() {
  // const LOCAL_STORAGE_KEY = "contacts";
- // const [contacts, setContacts] = useState(() => {
-  //  const storedContacts = localStorage.getItem(LOCAL_STORAGE_KEY);
-  //  return storedContacts ? JSON.parse(storedContacts) : [];
-  //});
+//  const [contacts, setContacts] = useState(() => {
+//    const storedContacts = localStorage.getItem(LOCAL_STORAGE_KEY);
+//    return storedContacts ? JSON.parse(storedContacts) : [];
+ // });
   const [contacts,setContacts]=useState([]);
   const[searchTerm,setSearchTerm]=useState("");
   const[searchResults,setSearchResults]=useState([]);
