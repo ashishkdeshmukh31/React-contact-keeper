@@ -15,9 +15,8 @@ function AddContact(props) {
     }
 
     props.addContactHandler({ name, email });
-
     setFormData({ name: "", email: "" });
-    navigate("/"); 
+    navigate("/");
   };
 
   return (
